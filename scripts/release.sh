@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 
 # Restore all git changes
 git restore -s@ -SW  -- .
@@ -13,4 +13,4 @@ fi
 
 # Release package
 echo "Publishing @nuxt/ui"
-npm publish -q --access public
+npm publish -q --access public 
